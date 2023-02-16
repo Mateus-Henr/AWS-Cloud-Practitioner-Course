@@ -21,6 +21,7 @@
 -   In AWS you apply the least privilege policy: don't give more permissions than a user needs.
 
  
+ 
 
 ## 15\. IAM Users & Groups Hands On
 
@@ -30,6 +31,7 @@
 
     -   There are specific tasks that are restricted to the AWS account root user. For example, only the root user can close your account.
 
+ 
  
 
 ## 16\. IAM Policies
@@ -68,12 +70,14 @@
 
         -   *Condition (optional):* Conditions for when the policy is in effect.
 
->  
+ 
+ 
 
 ## 17\. IAM Policies Hands On
 
 -   The "\*" symbol means "any".
 
+ 
  
 
 ## 18\. IAM MFA Overview

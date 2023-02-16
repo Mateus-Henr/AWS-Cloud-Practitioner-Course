@@ -26,7 +26,8 @@
 
 -   Scaling
 
->  
+ 
+ 
 
 ## 8\. What is Cloud Computing?
 
@@ -44,7 +45,7 @@
 
  
 
-Cloud Models
+**Cloud Models**
 
 -   Private Cloud - Single organization, not exposed. More secure, and meet specific business needs.
 
@@ -54,7 +55,7 @@ Cloud Models
 
  
 
-Characteristics of Cloud Computing
+**Characteristics of Cloud Computing**
 
 -   On-demand self service: you can just "shop" want you want when you want it.
 
@@ -68,7 +69,7 @@ Characteristics of Cloud Computing
 
  
 
-Six advantagens of Cloud Computing
+**Six advantagens of Cloud Computing**
 
 -   Trade CAPEX (capital expense) for OPEX (operational experience): Pay on-demand and cost reduce.
 
@@ -82,7 +83,7 @@ Six advantagens of Cloud Computing
 
  
 
-Problems solved by the Cloud
+**Problems solved by the Cloud**
 
 -   Flexibility
 
@@ -97,16 +98,13 @@ Problems solved by the Cloud
 -   Agility
 
  
-
- 
-
  
 
 ## 9\. The Different Types of Cloud Computing
 
  
 
-Infrastructure as a Service (IaaS) - AWS (EC2), Azure, Linode
+**Infrastructure as a Service (IaaS)** - AWS (EC2), Azure, Linode
 
 -   Provides the building blocks, networking, computers, data storage space etc.
 
@@ -116,7 +114,7 @@ Infrastructure as a Service (IaaS) - AWS (EC2), Azure, Linode
 
  
 
-Platform as a Service (Paas) - AWS (Elastic Beanstalk), Heroku, Google App Engine, Windows Azure
+**Platform as a Service (PaaS)** - AWS (Elastic Beanstalk), Heroku, Google App Engine, Windows Azure
 
 -   It doesn't manage infrastructure.
 
@@ -124,33 +122,32 @@ Platform as a Service (Paas) - AWS (Elastic Beanstalk), Heroku, Google App Engin
 
  
 
-Software as a Service (SaaS) - AWS (Rekognition is one of many examples), Google Apps, Zoom
+**Software as a Service (SaaS)** - AWS (Rekognition is one of many examples), Google Apps, Zoom
 
 -   Completed product that is run and managed by the service provider.
 
  
 
-Comparison:
+**Comparison:**
 
-<img src="https://drive.google.com/file/d/1C-CSh1X1cACYdt_DXUguMlYGo7sIstdr/view?usp=share_link" style="width:7.125in;height:4.24167in" />
+<img src="https://drive.google.com/uc?export=view&id=1C-CSh1X1cACYdt_DXUguMlYGo7sIstdr" style="width:7.125in;height:4.24167in" />
 
  
 
-Pricing
+**Pricing**
 
 -   For computing and storing we pay the exact used price.
 
 -   Relating data transfer we only pat we data LEAVES the cloud.
 
  
-
  
 
 ## 10\. AWS Cloud Overview
 
  
 
-AWS Cloud History
+**AWS Cloud History**
 
 > 2002 - Internally launched.
 >
@@ -161,20 +158,16 @@ AWS Cloud History
 > 2006 - RE-launched with more services.
 >
 > 2007 - Launched in Europe.
->
->  
 
-Curiosities
+**Curiosities**
 
 It's has the biggest cloud infrastructure.
 
  
 
- 
+**AWS Global Infrastructure**
 
-AWS Global Infrastructure
-
--   AWS Regions - It's a cluster of data centers (ex: 'us-west-3'). Most AWS services are region-scoped.
+-   *AWS Regions* - It's a cluster of data centers (ex: 'us-west-3'). Most AWS services are region-scoped.
 
     -   How to choose an AWS region?
 
@@ -188,7 +181,7 @@ AWS Global Infrastructure
 
  
 
--   AWS Availability Zones - Each region has many availability zones (usually 3, min is 3, max is 6).
+-   *AWS Availability Zones* - Each region has many availability zones (usually 3, min is 3, max is 6).
 
     -   What are they?
 
@@ -202,28 +195,29 @@ AWS Global Infrastructure
 
         -   They made up a region.
 
->  
+ 
 
--   AWS Data Centers - One of its several cores.
-
->  
-
--   AWS Edge Locations / Points of Presence - AWS has 216 points of presence around the world. Meaning that low latency is easy.
+-   *AWS Data Centers* - One of its several cores.
 
  
 
-Others
+-   *AWS Edge Locations / Points of Presence* - AWS has 216 points of presence around the world. Meaning that low latency is easy.
+
+ 
+
+**Others**
 
 -   AWS has some Global services but most of its services are Region-scoped.
 
+ 
  
 
 ## 12 - Shared Responsibility Model & AWS Acceptable Policy
 
  
 
-Shared Responsability Model diagram - This is basically what is your responsabilities and what is AWS' responsabilities.
+**Shared Responsability Model diagram** - This is basically what is your responsabilities and what is AWS' responsabilities.
 
 > Customer - Responsability for the security in the cloud.
->
+
 > AWS - Responsability for the security on the cloud (their hardware and software).
